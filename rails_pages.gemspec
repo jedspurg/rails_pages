@@ -7,17 +7,17 @@ require "rails_pages/version"
 Gem::Specification.new do |s|
   s.name        = "rails_pages"
   s.version     = RailsPages::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsPages."
-  s.description = "TODO: Description of RailsPages."
+  s.authors     = ["Jeramy Spurgeon"]
+  s.email       = ["jeramy.d.spurgeon@gmail.com"]
+  s.homepage    = "https://github.com/jedspurg/rails_pages"
+  s.summary     = "Micro CMS for Ruby on Rails"
+  s.description = "Micro CMS for Ruby on Rails"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 4.1.9"
+  s.add_dependency "rails", "~> 4.1.0"
 
   s.add_development_dependency "sqlite3"
 end
