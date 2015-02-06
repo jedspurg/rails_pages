@@ -11,3 +11,6 @@
 // about supported directives.
 //
 //= require_tree .
+//= require textAngular
+//= require textAngular-sanitize
+//= require textAngularSetup
