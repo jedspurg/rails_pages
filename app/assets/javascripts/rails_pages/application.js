@@ -11,6 +11,6 @@
 // about supported directives.
 //
 //= require_tree .
-//= require textAngular
-//= require textAngular-sanitize
-//= require textAngularSetup
+//= require angular.min
+//= require textAngular-sanitize.min
+//= require textAngular.min
